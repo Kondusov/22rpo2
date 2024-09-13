@@ -3,6 +3,77 @@
 }
 .big-banner{
     background-image: url('../img/big-banner-1.png');
-    min-height: 858px;
+    min-height: 444px;
     display: flex;
+    flex-direction: column;
+}
+.main-nav-menu{
+    margin: 10px 5px;
+}
+.main-nav-menu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 9px;
+}
+.main-nav-menu a:hover{
+    color: rgb(106, 100, 98);
+    transition: 0.7s;
+    font-weight: 600;
+
+}
+.phone-block button{
+    background-color: rgb(247, 142, 5);
+    color: white;
+    border-radius: 25px;
+    padding: 5px 17px;
+    font-size: 11px;
+    font-weight: 700;
+    border: 0;
+}
+.phone-block button:hover{
+    color: black;
+    transition: 1s;
+}
+.phone-block {
+    color: white;
+    text-decoration: none;
+}
+.phone-block a{
+    color: white;
+    text-decoration: none;
+}
+.button-call-header{
+    text-align: center;
+}
+.text-banner{
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+}
+.text-banner button{
+    background-color: rgb(247, 142, 5);
+    color: white;
+    padding: 5px 17px;
+    font-size: 11px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3px;
+}
+.text-banner button:hover{
+    color: black;
+    transition: 1s;
+}
+.about .about-bg img{
+    max-width: 100%;
+}
+.about h4{
+    font-family: cursive;
+}
+.about h4 span{
+    color: #fa8507;
+}
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
 }
