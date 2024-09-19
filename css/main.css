@@ -1,3 +1,9 @@
+body{
+    font-family: serif;
+}
+.header{
+    margin-top: 20px;
+}
 .logo img{
     max-height: 50px;
 }
@@ -16,16 +22,15 @@
     padding-left: 9px;
 }
 .main-nav-menu a:hover{
-    color: rgb(106, 100, 98);
+    color: #fa8507;
     transition: 0.7s;
-    font-weight: 600;
 
 }
 .phone-block button{
     background-color: rgb(247, 142, 5);
     color: white;
-    border-radius: 25px;
-    padding: 5px 17px;
+    border-radius: 5px;
+    padding: 7px 21px;
     font-size: 11px;
     font-weight: 700;
     border: 0;
@@ -41,6 +46,9 @@
 .phone-block a{
     color: white;
     text-decoration: none;
+}
+.phone-block a:hover{
+    color: #fa8507;
 }
 .button-call-header{
     text-align: center;
@@ -60,8 +68,16 @@
     border-radius: 3px;
 }
 .text-banner button:hover{
-    color: black;
+    color: #fa8507;
+    background-color: #fff;
     transition: 1s;
+}
+.text-banner p:first-child{
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.text-banner h2{
+    font-size: 3rem;
 }
 .about .about-bg img{
     max-width: 100%;
@@ -76,4 +92,10 @@
     font-size: 16px;
     font-weight: 400;
     color: #777777;
+}
+.about{
+    margin-top: 30px;
+}
+.button-call-header {
+    text-align: left;
 }
