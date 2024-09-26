@@ -191,3 +191,30 @@ body{
         margin-top: 8%;
     }
 }
+.daily-offers{}
+.daily-offers .header{
+    text-align: center;
+}
+.banner-burger, .items-block{
+    display: inline-block;
+    width: 48%;
+}
+.daily-offers .my-container .banner-burger img{
+    max-width: -webkit-fill-available;
+}
+.daily-offers  .items-block .item div{
+    display: inline-block;
+}
+.daily-offers .my-container .items-block .item{
+    border: #777 1px solid;
+}
+.daily-offers .my-container .items-block .item .item-img{
+
+}
+.daily-offers .my-container .items-block .item .item-text{
+    
+}
+.daily-offers .my-container .items-block .item .item-icon{
+    font-size: 3.7rem;
+    color: #fa8507;
+}
