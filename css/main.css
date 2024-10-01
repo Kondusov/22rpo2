@@ -207,14 +207,30 @@ body{
 }
 .daily-offers .my-container .items-block .item{
     border: #777 1px solid;
+    margin-bottom: 2rem;
 }
 .daily-offers .my-container .items-block .item .item-img{
 
 }
 .daily-offers .my-container .items-block .item .item-text{
+    padding-left: 1rem;
+}
+.daily-offers .my-container .items-block .item .item-text p:first-child{
+    font-size: 1.6rem;
+    margin-bottom: 0;
     
+
+}
+.daily-offers .my-container .items-block .item .item-text p:last-child{
+    font-size: 1rem;
+    color: #777;
 }
 .daily-offers .my-container .items-block .item .item-icon{
-    font-size: 3.7rem;
+    font-size: 2.7rem;
     color: #fa8507;
+}
+.daily-offers .my-container .items-block .item .item-icon i{
+    padding-left: 43px;
+    position: absolute;
+    margin-top: -26px;
 }
