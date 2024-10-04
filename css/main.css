@@ -15,6 +15,8 @@ body{
 }
 .main-nav-menu{
     margin: 10px 5px;
+    position: fixed;
+    top: 0;
 }
 .main-nav-menu a{
     color: white;
@@ -149,6 +151,8 @@ body{
     
 }
 .my-container{
+    display: flex;
+    justify-content: space-between;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -193,14 +197,17 @@ body{
 }
 .daily-offers{}
 .daily-offers .header{
+    margin-bottom: 85px;
     text-align: center;
 }
 .banner-burger, .items-block{
-    display: inline-block;
     width: 48%;
 }
-.daily-offers .my-container .banner-burger img{
-    max-width: -webkit-fill-available;
+.daily-offers .my-container .banner-burger{
+    background: url('../img/daily-offer-banner.png');
+    background-size: cover;
+    width: 555px;
+    height: 429px;
 }
 .daily-offers  .items-block .item div{
     display: inline-block;
@@ -208,6 +215,8 @@ body{
 .daily-offers .my-container .items-block .item{
     border: #777 1px solid;
     margin-bottom: 2rem;
+    min-width: 555px;
+
 }
 .daily-offers .my-container .items-block .item .item-img{
 
@@ -217,20 +226,34 @@ body{
 }
 .daily-offers .my-container .items-block .item .item-text p:first-child{
     font-size: 1.6rem;
+    font-style: italic;
     margin-bottom: 0;
-    
 
 }
 .daily-offers .my-container .items-block .item .item-text p:last-child{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #777;
+    font-family: cursive;
+    margin-bottom: 0;
 }
 .daily-offers .my-container .items-block .item .item-icon{
-    font-size: 2.7rem;
+    font-size: 2.3rem;
     color: #fa8507;
 }
 .daily-offers .my-container .items-block .item .item-icon i{
-    padding-left: 43px;
+    padding-left: 4px;
     position: absolute;
     margin-top: -26px;
+}
+.position{
+   height: 700px;
+}
+.sub_position{
+    position: fixed;
+    top: 0;
+}
+.position span{
+    background-color: aqua;
+    font-size: 5rem;
+    color: #fa8507;
 }
