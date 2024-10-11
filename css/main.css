@@ -319,3 +319,70 @@ body{
     padding: 20px 35px;
     max-height: max-content;
 }
+/* Bahtinov code , section rewies*/
+
+.reviews{
+    margin: 100px 0;
+}
+
+.reviews .header{
+    text-align: center;
+    
+}
+
+.reviews .header h2{
+    /* font-style: italic; */
+    font-family: cursive;
+    font-weight: 700;
+    text-shadow: #989898 2px 2px 3px;
+}
+
+.container-reviews{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+
+.container-reviews .review-item{
+    width: 40%;
+    background-color: #dcdcdc7e;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+.container-reviews .review-item img{
+    border-radius: 100%;
+}
+
+.container-reviews .review-item p{
+    color: #777;
+}
+/* END Bahtinov code , section rewies*/
+.Our-Food-News .header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.Food-conteiner{
+    display: flex;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+.Our-Food-News .Food-card{
+   
+    background-color: #dddddd;
+}
+.Our-Food-News .Food-card .item--Food-text{
+    padding: 15px 20px;
+}
+.Our-Food-News{
+margin: 8% 0;
+}
+.Our-Food-News .Food-card .item--Food-text p{
+    color: #868686;
+}
