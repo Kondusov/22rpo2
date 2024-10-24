@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши формы на тесте</title>
+</head>
+<body>
+    <input type="submit" form="main-form">
+    <form action="post.php" method="post" id="main-form" enctype="multipart/form-data">
+        <input type="hidden" name="name-form" value="checkout-form">
+        <input type="reset">
+        <p>
+          <input type="date-local">
+        </p>
+        <p>
+            <label for="city-select">Ваш город</label>
+            <select name="city" id="city-select"  required>
+                <option value="">-- Выберите город --</option>
+                <option value="petersburg" selected>Санкт-Петербург</option>
+                <option value="samara">Самара</option>
+                <option value="perm">Пермь</option>
+                <option value="novosibirsk">Новосибирск</option>
+            </select>
+        </p>
+        <fieldset>
+            <legend>Выберите прожарку</legend>
+            <label>
+              <input type="radio" name="level">
+              Rare
+            </label>
+            <label>
+              <input type="radio" name="level"checked>
+              Medium
+            </label>
+            <label>
+              <input type="radio" name="level">
+              Well Done
+            </label>
+          </fieldset>
+
+        <p>
+          <label for="name">Введите имя:</label>
+          <input type="text" name="name" id="name" autocomplete="off" >
+        </p>
+        <fieldset>
+            <legend>Выберите вариант</legend>
+            <label>
+              <input type="checkbox" name="level-var1" >
+              Rare
+            </label>
+            <label>
+              <input type="checkbox" name="level-var2">
+              Medium
+            </label>
+            <label>
+              <input type="checkbox" name="level-var3" checked>
+              Well Done
+            </label>
+          </fieldset>
+        <p>
+            <p>
+                <label for="name">Ваш возраст:</label>
+                <input type="number" name="age" id="age"  value="18" min="18" max="99">
+              </p>
+          <label for="email">Введите email:</label>
+          <input type="email" name="email" id="email" novalidate >
+        </p>
+        <p>
+            <label for="name">Ваш пароль:</label>
+            <input type="password" name="pass" id="pass">
+          </p>
+          <p>
+            <label for="">Выберите цвет
+              <input type="color" name="color" value="#f00a0a">
+            </label>
+          </p>
+          <textarea rows="5" cols="15" name="message" placeholder="Введите сообщение"></textarea>
+          <p>
+            <input type="file" name="attached">
+          </p>
+        <button type="submit">Отправить</button>
+      </form>
+    <br>
+    <br>
+    <br>
+    <br>      
+
+    <br><br>
+    <br><br><br>
+
+</body>
+</html>

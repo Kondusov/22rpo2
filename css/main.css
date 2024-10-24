@@ -248,6 +248,8 @@ body{
 .reservation {
     margin: 85px 0px;
     background-image: url('../img/reservation-bg.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     padding-bottom: 100px;
 }
 
@@ -434,3 +436,35 @@ margin: 8% 0;
     transition: 0.7s;
     opacity: 0;
 }
+/* Savva code */
+.header{
+    text-align: center;
+        
+}
+
+.header h2{
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.povarenok{
+    width: 33%;
+    max-height: 550px;
+}
+.owl-chefs{
+    margin: 100px 0px;
+}
+
+.povarenok img{
+    height: 100%;
+}
+/* END Savva code */
